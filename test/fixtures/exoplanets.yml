@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  distance: 9.99
+  disc_year: 2015-12-08
+  period: 9.99
+
+two:
+  name: MyString
+  distance: 9.99
+  disc_year: 2015-12-08
+  period: 9.99

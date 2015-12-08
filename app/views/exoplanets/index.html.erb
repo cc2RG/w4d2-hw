@@ -1,0 +1,7 @@
+<% @exoplanets.each do |exoplanet|%>
+  <%= exoplanet.name %> was discovered in the year <%= exoplanet.disc_year %>
+  <%=link_to("Show #{exoplanet.name}", exoplanet_path(exoplanet)) %>
+  <%= button_to('Delete Planet',exoplanet_path(exoplanet), method: :delete, data: {confirm: 'Delete them, Are you sure?'}) %>
+  <%=link_to('Edit Planet', edit_exoplanet_path(exoplanet)) %>
+  <br>
+<%end%>
